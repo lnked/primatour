@@ -1,3 +1,19 @@
+.checkbox-error {
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    background-color: #e2394e;
+}
+
+.checkbox-error:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.checkbox-error_active {
+    display: block;
+}
+
 .checkbox {
     clear: both;
     display: block;
