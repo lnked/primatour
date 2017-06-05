@@ -76,3 +76,8 @@
 .checkbox__input:checked + .checkbox__label:after {
     opacity: 1;
 }
+
+.popup.pure-popup {
+    position: fixed;
+    z-index: 20000;
+}

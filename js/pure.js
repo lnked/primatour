@@ -7,6 +7,8 @@
         var $popup = $.popup._getPopup(selector);
         var position = $.popup.getPosition($popup);
 
+        $popup.addClass('pure-popup');
+
         $popup.css(position);
 
         $popup.animate({ 'opacity': 'show' }, 250, function() {
